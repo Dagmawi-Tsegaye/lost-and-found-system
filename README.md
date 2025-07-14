@@ -1,60 +1,61 @@
-Addis Ababa University (AAU) - Lost and Found System
-This is a portfolio project designed to solve the common problem of managing lost and found items on a large university campus. It provides a centralized, digital platform for the Addis Ababa University (AAU) community to report, search for, and securely reclaim lost belongings. Please note, this is a personal project and is not officially affiliated with or used by Addis Ababa University.
+# Addis Ababa University (AAU) - Lost and Found System
 
-Live Demo: https://lost-and-found-system-chi.vercel.app/home.html
+This is a portfolio project designed to solve the common problem of managing lost and found items on a large university campus. It provides a centralized, digital platform for the Addis Ababa University (AAU) community to report, search for, and securely reclaim lost belongings.
 
-About The Project
+> **Note:** This is a personal project and is not officially affiliated with or used by Addis Ababa University.
+
+**Live Demo:** [Lost and Found System](https://lost-and-found-system-chi.vercel.app/home.html)
+
+## About The Project
+
 The traditional method of handling lost items at AAU is often informal and unreliable, leading to frustration and permanent loss of property. This project introduces a structured and efficient digital solution. Built with a user-centered design approach, the system allows students and staff to manage lost and found items transparently, fostering a stronger sense of community and responsibility.
 
-Key Features
-Seamless Item Reporting: Users can easily submit detailed reports for both lost and found items, including categories, descriptions, locations, and photo uploads.
+## Key Features
 
-Advanced Search & Filtering: A robust search functionality allows users to quickly find items based on keywords, categories, and location.
+- **Seamless Item Reporting:** Users can easily submit detailed reports for both lost and found items, including categories, descriptions, locations, and photo uploads.
+- **Advanced Search & Filtering:** Quickly find items using keywords, categories, and location filters.
+- **Secure Claim Process:** A private verification system ensures items are returned to their rightful owners by allowing finders to request non-public details before revealing contact info.
+- **Moderator-Focused Admin Role:** Admins can moderate and resolve disputes without editing user-generated content, preserving post integrity.
+- **Accountability Log:** Tracks when an item is successfully returned, recording claimant info (submitted by the finder) for accountability.
+- **Responsive Design:** Designed in Figma with a mobile-first approach, ensuring functionality on desktops, tablets, and smartphones.
 
-Secure Claim Process: A private verification system ensures items are returned to their rightful owners. Finders can ask claimants for non-public details about an item before revealing contact information.
+## Technology Stack
 
-Moderator-Focused Admin Role: The administrator role is designed for moderation and dispute resolution, without the ability to edit user-generated content, thereby ensuring the integrity of all posts.
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Backend-as-a-Service (BaaS):** Supabase
+- **Database:** Supabase DB (PostgreSQL)
+- **Authentication:** Supabase Auth
+- **Design:** Figma
+- **Deployment:** Vercel
 
-Accountability Log: The system tracks when an item is successfully returned and records the claimant's information (submitted by the finder) for accountability.
+## Project Development Insights
 
-Responsive Design: The UI was designed in Figma and built with a mobile-first approach, ensuring full functionality on desktops, tablets, and smartphones.
+- **Admin Role Integrity:** Instead of traditional admin power to edit/delete posts, the admin focuses on content moderation and dispute resolution to maintain data integrity.
+- **User Experience Refinement:** Based on feedback, the UI was refined, navigation was unified, and the reporting process was streamlined to reduce friction for users.
 
-Technology Stack
-Frontend: HTML5, CSS3, Vanilla JavaScript
+## Getting Started
 
-Backend-as-a-Service (BaaS): Supabase
-
-Database: Supabase DB (PostgreSQL)
-
-Authentication: Supabase Auth
-
-Design: Figma
-
-Deployment: Vercel
-
-Project Development Insights
-The development process involved solving key challenges to ensure the system was both secure and user-friendly.
-
-Admin Role Integrity: A key design decision was to redefine the traditional admin role. To protect data integrity and user trust, admins cannot edit or delete user posts. Instead, their role is focused on moderating content, resolving user disputes, and managing the overall health of the system.
-
-User Experience Refinement: Based on initial designs and feedback, the user interface and navigation were significantly refined. A unified navigation bar was implemented, and the item reporting process was streamlined to be as intuitive as possible, reducing friction for users.
-
-Getting Started
 To get a local copy up and running for development:
 
-Clone the repository:
+1. **Clone the repository:**
 
-Bash
+    ```bash
+    git clone https://github.com/Dagmawi-Tsegaye/lost-and-found-system.git
+    ```
 
-git clone https://github.com/Dagmawi-Tsegaye/lost-and-found-system.git
-Open the home.html file in your browser. (Note: A live internet connection is required for Supabase integration to work).
+2. Open the `home.html` file in your browser.  
+   *(Note: A live internet connection is required for Supabase integration to work.)*
 
-Contact
-Dagmawi Tsegaye Feleke - dagmawi.tsegaye.feleke@gmail.com
+## Contact
 
-Project Link: https://github.com/Dagmawi-Tsegaye/lost-and-found-system
+**Dagmawi Tsegaye Feleke**  
+📧 [dagmawi.tsegaye.feleke@gmail.com](mailto:dagmawi.tsegaye.feleke@gmail.com)  
+🔗 [GitHub Project Link](https://github.com/Dagmawi-Tsegaye/lost-and-found-system)
 
-Acknowledgments
-Dr. Eyob: For his guidance and constructive criticism throughout the project's development.
+---
 
-Classmates and Friends: For their helpful suggestions and assistance with testing.
+## Built With
+
+* HTML5
+* CSS3 (with Flexbox and Grid)
+* JavaScript (for animations and interactivity)
